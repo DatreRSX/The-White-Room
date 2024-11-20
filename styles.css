@@ -5,11 +5,12 @@ justify-content: center;
 align-items: center;
 margin: 0;
 flex-direction: column;
-background-color:#0b0c22;
+background-color:#0b2022;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#02834d;
 }
