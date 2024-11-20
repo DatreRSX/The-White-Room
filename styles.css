@@ -7,3 +7,9 @@ margin: 0;
 flex-direction: column;
 background-color:#0b0c22;
 }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
