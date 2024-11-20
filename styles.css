@@ -12,6 +12,12 @@ background-color:#0b2022;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #434449;
+    gap: 50px;
+    font-size: 50px;
+    background-color:rgb(8,4,4) ;
+
+    width: 100%;
 }
 
 
