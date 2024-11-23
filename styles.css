@@ -1,50 +1,60 @@
-body
-{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0;
-flex-direction: column;
-background-color:#100c24;
-}
-
-a
-{
-    color:inherit;
-    text-decoration:none;
-}
-
-.header
-{
-    font-family: Arial, Helvetica, sans-serif;
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: #100c24;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-items: center;
     color: #bbbcc4a6;
-    gap: 30px;
     font-size: 20px;
-    background-color:rgb(8,4,4) ;
-    padding-top:1.5%;
-    padding-bottom:1.5%;
+    background-color: rgb(8, 4, 4);
     width: 100%;
     font-weight: bold;
 }
 
+.button {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    cursor: pointer;           
+    padding: 10px 20px;                       
+    transition: background-color 0.3s ease; 
+}
+.button:hover {
+    background-color: rgba(100, 100, 100, 0.2); 
+}
 
+.button a {
+    display: block;             
+    padding: 10px 20px;        
+    text-align: center;         
+}
 
-.body1
+.section1 
 {
     display: flex;
-    background-color:rgb(11, 12, 34);
+    background-color: rgb(11, 12, 34);
     height: 500px;
     width: 100%;
     color: rgb(203, 205, 207);
- 
-
-
+    flex-direction: column;
 }
 
-.body2
+.section2 
 {
     background-color: rgb(26, 29, 55);
     height: 500px;
@@ -53,20 +63,81 @@ a
 }
 
 #nombre
-{
-margin-right: 15%;
+ {
 
+    margin-right: 7%;         /* Espaciado entre letras */
 }
 
-/*PROGRAMAS*/
+
+.seccion1
+ {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 12, 34);
+    height: 500px;
+    width: 100%;
+    color: rgb(203, 205, 207);
+}
+
+.seccion2 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 29, 55);
+    height: 500px;
+    width: 100%;
+    color: rgb(188, 213, 238);
+}
 
 
+.listaProgramas
+ {
+    position: relative; 
+}
+
+.submenu 
+{
+    display: flex;
+    align-items: center;
+    display: none; 
+    position: absolute;
+    background-color: #eaf2ff; 
+    padding: 0;
+    list-style: none;
+    margin-top:190%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    border-radius: 4px;
+    z-index: 1000; 
+}
+
+.submenu li
+ {
+    width:20%px;
+      
+}
+
+.submenu li a
+ {
+    
+    justify-content:center ;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    padding: 10px;
+    display: block;
+}
+
+.submenu li a:hover
+ {
+    background-color: rgb(26, 29, 55); 
+    border-radius: 2px;
+    color: aliceblue;
+}
 
 
-
-
-
-
-/*fIN-PROGRAMAS*/
+.listaProgramas:hover .submenu 
+{
+    display: block;
+}
 
 
