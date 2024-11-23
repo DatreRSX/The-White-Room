@@ -141,3 +141,36 @@ a {
 }
 
 
+footer
+{
+display: flex;
+background-color: black;
+width: 100%;
+color: aliceblue;
+height:auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+#redesSociales
+{
+display: flex;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#numeroCorreo
+{
+
+display: flex;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#numero
+{
+
+margin-right: 50px;    
+}
