@@ -17,27 +17,46 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #434449;
-    gap: 50px;
-    font-size: 45px;
+    color: #bbbcc4a6;
+    gap: 30px;
+    font-size: 20px;
     background-color:rgb(8,4,4) ;
-
+padding:1.45%;
     width: 100%;
+    font-weight: bold;
 }
 
 .body1{
-    background-color: #100c24;
+    display: flex;
+    background-color:rgb(11, 12, 34);
     height: 500px;
     width: 100%;
+    color: rgb(203, 205, 207);
+    
 }
 .body2{
-    background-color: #201c34;
+    background-color: rgb(26, 29, 55);
     height: 500px;
     width: 100%;
+    color: rgb(188, 213, 238);
 }
 
+#nombre
+{
+
+margin-right: 15%;
+
+}
+
+/*PROGRAMAS*/
 
 
 
+
+
+
+
+
+/*fIN-PROGRAMAS*/
 
 
