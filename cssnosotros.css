@@ -163,7 +163,30 @@ margin-right: 50px;
 
 /*Pagina*/
 
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tit1{
-width: 10%;
+
+width: 15%;
+margin-top: 6%;
+color:rgb(131, 193, 255);
+}
+.tit2{
+width: 60%;
+color:rgb(131, 193, 255);
 text-align: center;
+}
+
+.maintxt{
+    width: 60%;
+    color:rgb(188, 213, 238);
+    text-align: justify;
+}
+.banner{
+    width: 100%;
+    height: ;
 }
