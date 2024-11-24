@@ -35,6 +35,7 @@ margin-right: 20PX;
     width: 100%;
     font-weight: bold;
     z-index: 3000;
+    box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.11);
 }
 
 .button {
@@ -465,28 +466,32 @@ form
 
 #tarjeta
 {
-    display: flex;
+display: flex;
 margin-top: 5%;
-
-
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+align-content: center;
 }
 
-input , select 
+input , select ,#CVV
 {
 text-align: center;
-    border:2px solid aqua;
+    border:3px solid rgb(0, 156, 156);
     border-radius: 49px;
  font-size: 15px;
  width:50%;
  height: 30px;
+ margin: 30px;
 }
 
 button
 {
     width:20%;
-    height: 30px;
+    height: 60px;
     text-align: center;
     border:2px solid aqua;
     border-radius: 49px;
- font-size: 15px;
+    font-size: 15px;
+    margin-top: 70px;
 }
