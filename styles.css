@@ -361,3 +361,18 @@ margin-left: 10%;
     border: 3.9px solid rgb(120, 255, 255);
 }
 
+.footer-logo
+{
+
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    margin:9%;
+    border-radius: 25%;
+    
+}
+
+.footer-logo:hover {
+    transform: scale(1.1); 
+}
