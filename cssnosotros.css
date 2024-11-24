@@ -191,6 +191,9 @@ font-family: Arial, Helvetica, sans-serif;
     width: 55%;
     color:rgb(188, 213, 238);
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24;
+    font-weight: bold;
 }
 .img-div{
     width: 100px;
@@ -222,6 +225,20 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 }
+
+.flex-con{
+    display: flex;
+}
+
+.imgc{
+    width: 90%;
+}
+.divimg{
+    margin: 0 auto;
+    align-content: center;
+}
+
+
 
 /*footer*/
 
