@@ -246,7 +246,7 @@ h1
 #seccion4P
 {
     display: flex;
-    flex-direction: column;
+ 
     background-color: rgba(26, 29, 55, 0.712);
     height: auto;
     width: 70%;
@@ -312,9 +312,10 @@ width: auto;
 {
 
 border-radius: 20px;
-width: 85%;
+width: 90%;
 height: auto;
 order:1;
+margin-right: 8%;
 }
 
 #seccion2PT
@@ -326,15 +327,25 @@ order: 2;
 #seccion3Ppng
 {
 
-border-radius: 20px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px; ;
 width: 90%;
 height: auto;
 order:1;
 margin-left: 5%;
 }
 
+#seccion4Ppng
+{
+
+border-radius: 50%;
+width: 92%;
+height: auto;
+
+margin-right: 10%;
+}
 .luzneon
 
 {
-    border: 3px solid aqua;
+    border: 3.9px solid rgb(120, 255, 255);
 }
