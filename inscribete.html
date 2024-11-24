@@ -9,8 +9,9 @@
 <body>
    
     <header class="header">
+        <div id="logo"><img id="logo" src="logo.png" alt="logo"></div>   
         <div id="nombre">The White ROOM</div>
-      
+       
             <div class="button"><a href="index.html">Inicio</a></div>
             <div class="button"><a href="nosotros.html">Nosotros</a></div>
             <div class="button listaProgramas">
@@ -21,182 +22,80 @@
                     <li><a href="programa1.html#seccion4P">Hacker Ético Certificado</a></li>
                     <li><a href="programa1.html#seccion5P">Titulación Empresarial</a></li>
                 </ul>
+                
             </div>
-            <div class="button"><a href="temario.html">Temario</a></div>
-            <div class="button"><a href="soporte.html">Soporte</a></div>
-            <div class="button"><a href="tienda.html">Tienda</a></div>
-      
+            <div class="button" style="color: rgb(0, 241, 241) ; margin-left: 30px;"><a href="inscribete.html">Inscribete</a></div>
+            </div>
+        
     </header>
 
+<div id="precios">
 
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
+   <div id="tituloFormulario"><h1>Inscripción - Academia de Hacking</h1></div>
 
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
+    <h3>Programas Disponibles:</h3>
+    <ul>
+        <li>
+            <strong>Programa Básico:</strong>
+            <p>Aprenderás los fundamentos del hacking ético, cómo usar herramientas básicas y los principios de seguridad informática.</p>
+            <p><strong>Precio:</strong> €100</p>
+        </li>
+        <li>
+            <strong>Programa Intermedio:</strong>
+            <p>Te adentrarás en el análisis de vulnerabilidades, pruebas de penetración, y hacking de redes en escenarios prácticos.</p>
+            <p><strong>Precio:</strong> 200€</p>
+        </li>
+        <li>
+            <strong>Programa Avanzado:</strong>
+            <p>Enfocado en la explotación de vulnerabilidades, desarrollo de exploits personalizados, y estrategias avanzadas de ciberseguridad.</p>
+            <p><strong>Precio:</strong> 300€</p>
+        </li>
+    </ul>
+</div>
+    <form  method="POST">
+        <div>
+            <h1>Introduce tus datos en el siguiente formulario</h1>
+        <label for="name">Nombre Completo:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre completo" required>
+        <br><br>
         
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
-
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+        <br><br>
         
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
-
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
+        <label for="course">Selecciona el Curso:</label>
+        <select id="course" name="course" required>
+            <option value="basic">Curso Básico - 100€</option>
+            <option value="intermediate">Curso Intermedio - 200€</option>
+            <option value="advanced">Curso Avanzado - 300€</option>
+        </select>
         
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
     </div>
 
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
+    <div id="tarjeta">
+        <h3>Datos de la Tarjeta de Crédito:</h3>
+        <div>
+        <label for="card-number">Número de Tarjeta:</label>
+        <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+        </div>
 
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
+        <div>
+        <label for="expiry-date">Fecha de Expiración:</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+        </div>
 
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
-<footer>
-
-</footer>
-
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
+        <div>
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="123" required>
+        </div>
     </div>
 
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
+        <button type="submit">Inscribirse</button>
+    </form>
 
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
 
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
-
-    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>    <div class="seccion1">
-        Bienvenido a la Academia de Ciberseguridad
-
-        TU CAMINO HACIA LA EXCELENCIA EN CIBERSEGURIDAD COMIENZA AQUÍ.
-        Formación integral en ciberseguridad, impartida por expertos. 
-        
-        Prepárate para proteger el mundo digital.
-    </div>
-    <div class="seccion2">
-        NUESTROS ALUMNOS
-BENEFICIOS DEL ALUMNO
-En la Academia de Ciberseguridad, caminamos junto a nuestros alumnos en su viaje de aprendizaje.
- Nuestro completo plan de estudios de seguridad informática, que se extiende a lo largo de dos años, cubre desde los conceptos más básicos hasta los temas más avanzados.
-  Nos esforzamos por ofrecer una educación de alta calidad con un enfoque en el material actualizado y relevante. 
-Nuestro objetivo es equiparte con las habilidades y el conocimiento que necesitas para destacar en el campo de la ciberseguridad.
-    </div>
+    
+  
 
     <footer>
         <div id="redesSociales">
