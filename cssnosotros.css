@@ -13,6 +13,13 @@ a {
     text-decoration: none;
 }
 
+#logo
+{
+
+width: 90px; 
+border-radius: 100%;
+margin-right: 20PX;    
+}
 .header 
 {
     position: fixed;
