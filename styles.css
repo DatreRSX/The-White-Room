@@ -181,7 +181,7 @@ margin-right: 50px;
     width: 25%;
 }
 
-.seccion1P
+#seccion1P
  {
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@ h1
     color: rgb(0, 180, 180);
 }
 
-.seccion2P
+#seccion2P
 {
     display: flex;
     flex-direction: column;
@@ -217,7 +217,7 @@ h1
     align-content: center;
 }
 
-.seccion3P
+#seccion3P
 {
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@ h1
     align-content: center;
 }
 
-.seccion4P
+#seccion4P
 {
     display: flex;
     flex-direction: column;
@@ -245,7 +245,7 @@ h1
     align-content: center;
 }
 
-.seccion5P
+#seccion5P
 {
     display: flex;
     flex-direction: column;
@@ -261,7 +261,7 @@ h1
 
 
 
-.seccion6P
+#seccion6P
 {
     display: flex;
     flex-direction: column;
