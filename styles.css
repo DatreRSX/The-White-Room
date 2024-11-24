@@ -139,12 +139,7 @@ align-items: center;
 align-content: center;
 }
 
-#redesSociales
-{
-display: flex;
-margin-top: 50px;
-margin-bottom: 50px;
-}
+
 
 #numeroCorreo
 {
@@ -363,16 +358,53 @@ margin-left: 10%;
 
 .footer-logo
 {
-
+display: flex;
     object-fit: contain;
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
-    margin:9%;
-    border-radius: 25%;
+margin: 20px;
+ 
     
+}
+
+#redesSociales
+{
+display: flex;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 50px;
+justify-content: center;
+align-items: center;
+align-content: center;
 }
 
 .footer-logo:hover {
     transform: scale(1.1); 
+}
+
+#numeroCorreo 
+{
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+color: aquamarine; 
+justify-content: center;
+align-items: center;
+align-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#cr
+{
+
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+color: aquamarine; 
+justify-content: center;
+align-items: center;
+align-content: center;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 10px;
 }
