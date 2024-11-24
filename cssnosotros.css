@@ -264,20 +264,30 @@ margin: 0 auto;
     justify-content: center;
     flex-direction: column;
     margin: 3%;
-    padding: 20px 20px;
     border-radius: 15px;
+    overflow: hidden;
 
 }
 
 .foto-profe{
-    width: 100%;
+    margin: 10px;
+    width: 90%;
     border-radius:50%;
     border-style: dotted;
     border-color: rgb(131, 193, 255) ;
+ 
 }
 .profe-desc{
+    display: flex;
     width: 100%;
     background-color: white;
+    box-sizing: border-box;
+    margin-top:5%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
