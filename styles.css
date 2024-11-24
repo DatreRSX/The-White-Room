@@ -462,6 +462,7 @@ form
     font-size: 20px;
     gap:30%;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 #tarjeta
@@ -593,7 +594,7 @@ legend {
     border-radius: 5px;
 }
 
-/*JAIMMME*/
+/*JAIME*/
 
 
 .flex-container{
