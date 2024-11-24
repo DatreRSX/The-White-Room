@@ -13,6 +13,14 @@ a {
     text-decoration: none;
 }
 
+#logo
+{
+
+width: 90px; 
+border-radius: 100%;
+margin-right: 20PX;    
+}
+
 .header 
 {
     position: fixed;
@@ -23,7 +31,7 @@ a {
     align-items: center;
     color: #bbbcc4a6;
     font-size: 21px;
-    background-color: rgb(8, 4, 4);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     font-weight: bold;
     z-index: 3000;
@@ -49,8 +57,8 @@ a {
 
 #nombre
  {
-
-    margin-right: 7%;       
+ margin-right: 40px;   
+         
 }
 
 
