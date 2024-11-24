@@ -174,7 +174,8 @@ margin-right: 50px;
     gap: 10px;
 }
 
-.container1 img{
+.container1 img
+{
     width: 10%;
     height: 100%;
     object-fit: cover;
@@ -415,4 +416,77 @@ align-items: center;
 align-content: center;
 font-family: Arial, Helvetica, sans-serif;
 padding-bottom: 10px;
+}
+
+#precios
+{
+    
+    display: flex;
+    background-color: rgb(11, 12, 34);
+    height: auto;
+    width: 70%;
+    color: rgb(188, 213, 238);
+    font-family:calibri;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    font-size: 20px;
+}
+#tituloFormulario
+{
+margin-top: 40px;    
+}
+
+form
+{
+
+    display: flex;
+    background-color: rgba(26, 29, 55, 0.712); 
+    height: auto;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    font-family:calibri;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    font-size: 20px;
+    gap:30%;
+    flex-direction: column;
+}
+
+#tarjeta
+{
+    display: flex;
+margin-top: 5%;
+
+
+}
+
+input , select 
+{
+text-align: center;
+    border:2px solid aqua;
+    border-radius: 49px;
+ font-size: 15px;
+ width:50%;
+ height: 30px;
+}
+
+button
+{
+    width:20%;
+    height: 30px;
+    text-align: center;
+    border:2px solid aqua;
+    border-radius: 49px;
+ font-size: 15px;
 }
