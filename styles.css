@@ -497,7 +497,7 @@ button
 }
 
 .hero {
-    background-image: url('your-background-image.jpg');
+
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -551,8 +551,3 @@ button
     background-color: #0099cc;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
