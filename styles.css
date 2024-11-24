@@ -210,8 +210,7 @@ h1
 #seccion2P
 {
     display: flex;
-    flex-direction: column;
-    background-color: rgba(26, 29, 55, 0.712);
+       background-color: rgba(26, 29, 55, 0.712);
     height: auto;
     width: 70%;
     color: rgb(188, 213, 238);
@@ -229,7 +228,6 @@ h1
 #seccion3P
 {
     display: flex;
-    flex-direction: column;
     background-color: rgb(11, 12, 34);
     height: auto;
     width: 70%;
@@ -267,7 +265,6 @@ h1
 #seccion5P
 {
     display: flex;
-    flex-direction: column;
     background-color: rgb(11, 12, 34);
     height: auto;
     width: 70%;
@@ -289,7 +286,6 @@ h1
 {
   
     display: flex;
-    flex-direction: column;
     background-color: rgba(26, 29, 55, 0.712); 
     height: auto;
     width: 70%;
@@ -309,4 +305,30 @@ h1
 {
 margin-left: 10%;
 border-radius: 26px;
+width: auto;
+}
+
+#seccion2Ppng
+{
+
+border-radius: 20px;
+width: 85%;
+height: auto;
+order:1;
+}
+
+#seccion2PT
+{
+order: 2;
+
+}
+
+#seccion3Ppng
+{
+
+border-radius: 20px;
+width: 90%;
+height: auto;
+order:1;
+margin-left: 5%;
 }
