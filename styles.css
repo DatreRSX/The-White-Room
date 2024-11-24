@@ -548,6 +548,6 @@ button
 }
 
 .btn-primary:hover {
-    background-color: #0099cc;
+    background-color: rgba(0, 255, 255, 0.486);
 }
 
