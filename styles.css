@@ -267,14 +267,14 @@ h1
     display: flex;
     background-color: rgb(11, 12, 34);
     height: auto;
-    width: 70%;
+    width: 80%;
     color: rgb(188, 213, 238);
     font-family:calibri;
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 4%;
     padding-top: 3%;
     font-size: 20px;
@@ -299,6 +299,7 @@ h1
     padding-bottom: 4%;
     padding-top: 3%;
     font-size: 20px;
+    
 }
 
 #seccion1Ppng
@@ -344,8 +345,19 @@ height: auto;
 
 margin-right: 10%;
 }
+
+#seccion5Ppng
+{
+
+border-radius: 20%;
+width: 98%;
+height: auto;
+margin-left: 10%;
+}
+
 .luzneon
 
 {
     border: 3.9px solid rgb(120, 255, 255);
 }
+
