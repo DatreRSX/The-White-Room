@@ -239,7 +239,38 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .seccion{
     background-color: rgb(11, 12, 34);
+    width: 100%;
 
+}
+
+.container-profesionales{
+display: flex;
+width: 95%;
+flex-direction: row;
+margin: 0 auto;
+
+}
+
+.profe{
+    display: flex;
+    border: 2px solid rgb(131, 193, 255); 
+    justify-content: center;
+    flex-direction: column;
+    margin: 3%;
+    padding: 20px 20px;
+    border-radius: 15px;
+
+}
+
+.foto-profe{
+    width: 100%;
+    border-radius:50%;
+    border-style: dotted;
+    border-color: rgb(131, 193, 255) ;
+}
+.profe-desc{
+    width: 100%;
+    background-color: white;
 }
 
 
