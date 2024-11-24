@@ -1,138 +1,115 @@
 <!DOCTYPE html>
-<html  lang="es">
-    
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The White Room</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-
 <body>
-    <div class="header">
+    <!-- Encabezado -->
+    <header class="header">
         <div id="nombre">The White ROOM</div>
-        <div class="button"><a href="index.html">Inicio</a></div>
-        <div class="button"><a href="nosotros.html">Nosotros</a></div>
-        <div class="button listaProgramas">
-            <a href="programa1.html">Programas</a>
-            <ul class="submenu">
-                <li><a href="#seccion2P">Técnico en Ciberseguridad</a></li>
-                <li><a href="#seccion3P">Aprende Pentesting 101</a></li>
-                <li><a href="#seccion4P">Hacker Ético Certificado</a></li>
-                <li><a href="#seccion5P">Titulacion Empresarial</a></li>
-            </ul>
-        </div>
-        <div class="button"><a href="temario.html">Temario</a></div>
-        <div class="button"><a href="soporte.html">Soporte</a></div>
-        <div class="button"><a href="tienda.html">Tienda</a></div>
-    </div>
+      
+            <div class="button"><a href="index.html">Inicio</a></div>
+            <div class="button"><a href="nosotros.html">Nosotros</a></div>
+            <div class="button listaProgramas">
+                <a href="programa1.html">Programas</a>
+                <ul class="submenu">
+                    <li><a href="#seccion2P">Técnico en Ciberseguridad</a></li>
+                    <li><a href="#seccion3P">Aprende Pentesting 101</a></li>
+                    <li><a href="#seccion4P">Hacker Ético Certificado</a></li>
+                    <li><a href="#seccion5P">Titulación Empresarial</a></li>
+                </ul>
+            </div>
+            <div class="button"><a href="temario.html">Temario</a></div>
+            <div class="button"><a href="soporte.html">Soporte</a></div>
+            <div class="button"><a href="tienda.html">Tienda</a></div>
+      
+    </header>
 
-    <div id="seccion1P">
-        <div><h1>Programas de Formación en Ciberseguridad</h1></div>
-        <div><h3>Descubre los programas que te ayudarán a dominar el mundo de la ciberseguridad</h3></div>
+    <!-- Sección principal de programas -->
+    <div id="seccion1P" class="section">
         <div>
+        <h1>Programas de Formación en Ciberseguridad</h1>
+        <h3>Descubre los programas que te ayudarán a dominar el mundo de la ciberseguridad</h3>
+        <p>
             En The White Room, queremos que nuestros estudiantes se conviertan en expertos capacitados para enfrentar los desafíos de un mundo cada vez más digital y vulnerable. 
             Cada uno de nuestros programas está diseñado con un enfoque práctico y actualizado, permitiendo que apliques lo aprendido en escenarios reales.
-            Descubre el detalle de cada uno de nuestros programas y elige el que mejor se adapte a tu nivel e intereses.
+        </p>
+        <p>Descubre el detalle de cada uno de nuestros programas y elige el que mejor se adapte a tu nivel e intereses.</p>
         </div>
+    <div id="seccion1Ppng"><img id="seccion1Ppng" src="seccion1P.png" alt="seccion1P"></div>
     </div>
-    <div id="seccion2P">
+
+    <!-- Sección Técnico en Ciberseguridad -->
+    <div id="seccion2P" class="section">
         <h1>Técnico en Ciberseguridad</h1>
-        Duración: 6 meses
-        Nivel: Principiante - Intermedio
-        
-        Este programa es ideal para quienes están comenzando en el mundo de la ciberseguridad. Aquí adquirirás los conocimientos y habilidades básicas necesarias para proteger sistemas informáticos, gestionar redes pequeñas y defenderte de amenazas comunes.
-        
-        Lo que aprenderás:
-        Fundamentos de redes y protocolos de comunicación:
-        
-        Comprender cómo funcionan las redes de datos y los principales protocolos (TCP/IP, HTTP, FTP, DNS).
-        Identificar puntos débiles en la configuración de redes domésticas o empresariales.
-        Seguridad en sistemas operativos:
-        
-        Configurar entornos seguros en sistemas Windows y Linux.
-        Detectar y corregir configuraciones inseguras.
-        Introducción a herramientas de ciberseguridad:
-        
-        Uso de herramientas básicas como Wireshark para analizar tráfico de red.
-        Identificación de vulnerabilidades con Nessus y OpenVAS.
-        Criptografía básica y gestión de contraseñas:
-        
-        Principios de cifrado y descifrado de datos.
-        Cómo implementar buenas prácticas de seguridad en contraseñas y autenticación.
-        Salidas profesionales:
-        Técnico en soporte de seguridad.
-        Analista junior en redes.
-        Administrador de sistemas con enfoque en seguridad.
-   
+        <p><strong>Duración:</strong> 6 meses</p>
+        <p><strong>Nivel:</strong> Principiante - Intermedio</p>
+        <p>
+            Este programa es ideal para quienes están comenzando en el mundo de la ciberseguridad. Aquí adquirirás los conocimientos y habilidades básicas necesarias para proteger sistemas informáticos, gestionar redes pequeñas y defenderte de amenazas comunes.
+        </p>
+        <h3>Lo que aprenderás:</h3>
+        <ul>
+            <li>Fundamentos de redes y protocolos de comunicación: TCP/IP, HTTP, FTP, DNS.</li>
+            <li>Seguridad en sistemas operativos Windows y Linux.</li>
+            <li>Introducción a herramientas como Wireshark, Nessus y OpenVAS.</li>
+            <li>Criptografía básica y gestión de contraseñas.</li>
+        </ul>
+        <h3>Salidas profesionales:</h3>
+        <ul>
+            <li>Técnico en soporte de seguridad.</li>
+            <li>Analista junior en redes.</li>
+            <li>Administrador de sistemas con enfoque en seguridad.</li>
+        </ul>
     </div>
 
-    <div id="seccion3P">
-    <h1>Aprende Pentesting 101</h1>
-        Duración: 3 meses
-        Nivel: Intermedio
-        
-        En este curso, te adentrarás en el emocionante mundo del pentesting (penetration testing), aprendiendo a identificar y explotar vulnerabilidades de manera ética. Es perfecto para quienes desean iniciar su camino como auditores de seguridad o consultores técnicos.
-        
-        Lo que aprenderás:
-        Metodologías estándar de pruebas de penetración:
-        
-        OWASP (Open Web Application Security Project) para aplicaciones web.
-        PTES (Penetration Testing Execution Standard) para auditorías más generales.
-        Herramientas esenciales del pentesting:
-        
-        Nmap: escaneo y mapeo de redes.
-        Burp Suite: auditoría de aplicaciones web.
-        Metasploit: explotación de vulnerabilidades conocidas.
-        Análisis y documentación de vulnerabilidades:
-        
-        Identificación de fallos en aplicaciones y sistemas.
-        Elaboración de informes técnicos para equipos de desarrollo y TI.
-        Buenas prácticas éticas:
-        
-        Cómo trabajar dentro de los marcos legales y éticos del hacking ético.
-        Gestión de autorizaciones para realizar pruebas de penetración.
-        Salidas profesionales:
-        Auditor de seguridad junior.
-        Consultor en evaluación de vulnerabilidades.
-        Especialista en aplicaciones web seguras.
-    </div>
-    <div id="seccion4P">
-        <div><h1>Hacker Ético Certificado</h1></div>
-        Duración: 12 meses
-        Nivel: Avanzado
-        
-        Nuestro programa más completo y desafiante está diseñado para profesionales que desean dominar el arte del hacking ético. Este curso abarca desde las técnicas más avanzadas de explotación hasta la defensa ante ciberataques sofisticados.
-        
-        Lo que aprenderás:
-        Técnicas avanzadas de hacking:
-      
-        Explotación de vulnerabilidades en sistemas operativos y software.
-        Bypassing de firewalls y sistemas IDS/IPS.
-        Simulación de ciberataques:
-        
-        Planificación y ejecución de ataques simulados en entornos empresariales.
-        Análisis de brechas de seguridad en infraestructuras críticas.
-        Ingeniería social:
-        
-        Uso de técnicas psicológicas para comprometer sistemas a través de usuarios.
-        Creación de campañas de phishing y spear-phishing (con fines éticos).
-        Malware y reverse engineering:
-        
-        Creación y análisis de malware.
-        Técnicas para desarmar y comprender el comportamiento de software malicioso.
-        Defensa avanzada:
-        
-        Diseño de estrategias de mitigación de riesgos.
-        Creación de entornos seguros utilizando firewalls, SIEMs, y sistemas de detección.
-        Salidas profesionales:
-        Especialista en hacking ético certificado (CEH).
-        Consultor en ciberseguridad avanzada.
-        Arquitecto de seguridad digital.
+    <!-- Sección Aprende Pentesting 101 -->
+    <div id="seccion3P" class="section">
+        <h1>Aprende Pentesting 101</h1>
+        <p><strong>Duración:</strong> 3 meses</p>
+        <p><strong>Nivel:</strong> Intermedio</p>
+        <p>
+            Adéntrate en el emocionante mundo del pentesting, aprendiendo a identificar y explotar vulnerabilidades de manera ética. Este curso es perfecto para quienes desean iniciar su camino como auditores de seguridad o consultores técnicos.
+        </p>
+        <h3>Lo que aprenderás:</h3>
+        <ul>
+            <li>Metodologías estándar: OWASP, PTES.</li>
+            <li>Herramientas: Nmap, Burp Suite, Metasploit.</li>
+            <li>Análisis y documentación de vulnerabilidades.</li>
+            <li>Buenas prácticas éticas y legales.</li>
+        </ul>
+        <h3>Salidas profesionales:</h3>
+        <ul>
+            <li>Auditor de seguridad junior.</li>
+            <li>Consultor en evaluación de vulnerabilidades.</li>
+            <li>Especialista en aplicaciones web seguras.</li>
+        </ul>
     </div>
 
- 
+    <!-- Sección Hacker Ético Certificado -->
+    <div id="seccion4P" class="section">
+        <h1>Hacker Ético Certificado</h1>
+        <p><strong>Duración:</strong> 12 meses</p>
+        <p><strong>Nivel:</strong> Avanzado</p>
+        <p>
+            Nuestro programa más completo y desafiante está diseñado para profesionales que desean dominar el arte del hacking ético. Este curso abarca desde las técnicas más avanzadas de explotación hasta la defensa ante ciberataques sofisticados.
+        </p>
+        <h3>Lo que aprenderás:</h3>
+        <ul>
+            <li>Técnicas avanzadas de hacking y bypassing de IDS/IPS.</li>
+            <li>Simulación de ciberataques y análisis de brechas de seguridad.</li>
+            <li>Ingeniería social y campañas de phishing.</li>
+            <li>Malware y reverse engineering.</li>
+        </ul>
+        <h3>Salidas profesionales:</h3>
+        <ul>
+            <li>Especialista en hacking ético certificado (CEH).</li>
+            <li>Consultor en ciberseguridad avanzada.</li>
+            <li>Arquitecto de seguridad digital.</li>
+        </ul>
+    </div>
 
     <div id="seccion5P">
         <h1>Titulación Empresarial</h1>
@@ -176,22 +153,18 @@ Inscríbete ahora y comienza tu camino hacia el éxito en el mundo digital.
 
     </div>
 
-
+    <!-- Footer -->
     <footer>
-
         <div id="redesSociales">
-        
-            <div>Instagram</div> <div>YT</div> <div>Facebook</div> <div>Linkedin</div>          
-        
+            <span>Instagram</span>
+            <span>YT</span>
+            <span>Facebook</span>
+            <span>LinkedIn</span>
         </div>
-        
         <div id="numeroCorreo">
-        
-        <div id="numero">666-666-666-555</div> <div id="correo">tumaa@tupapa.tu</div>
-        
+            <div id="numero">666-666-666-555</div>
+            <div id="correo">tumaa@tupapa.tu</div>
         </div>
-        
-        </footer>
-
+    </footer>
 </body>
 </html>
